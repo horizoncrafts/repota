@@ -29,18 +29,16 @@ The filename identifies the task independently of its directory.
 - Prefer to keep the filename unchanged throughout the task's lifecycle.
 - Do not reuse a task's filename for different work.
 
-
-
 ## Contents
 
 Contents of a task file is unrestricted. Mind it will be fed to a task executor, so
 
-- follow typical conventions (description, acc criteria, references, ...) that work the best
+- follow typical conventions (idea, description, acc criteria, references, ...) that work the best
 - try to keep it consistent within the project
 
-Avoid using frontmatter or structured fields for ID, status, assignee, dependencies, creation date, type, priority, or external reference. Everything can actually be just text. Even estimates, that can be simply another paragraph (method, math) rather then a structured field. Express relevant relationships and references naturally in the body. Git provides change history.
+Avoid using frontmatter or structured fields for ID, status, assignee, dependencies, creation date, type, priority, or external reference. Everything can actually be just a text. Even estimates can be simply another paragraph (method, math) rather then a structured field. Express relevant relationships and references naturally in the body. Git provides change history.
 
-Checkboxes describe progress within a task; they do not determine its status.
+Checkboxes may describe progress within a task; they do not determine its status.
 
 ## References
 

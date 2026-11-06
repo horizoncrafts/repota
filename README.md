@@ -2,7 +2,7 @@
 
 A minimal convention for tracking development tasks inside a repository, without an external tracker and close to the code.
 
-See [docs/repota.mc](docs/repota.md) for the rules and examples.
+See [docs/repota.md](docs/repota.md) for the rules and examples.
 
 ## Values
 - human-first. Everything can be easily managed by a human. Additional tools, AI skills are welcome but mustn't be critical.

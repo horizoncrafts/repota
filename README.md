@@ -4,6 +4,10 @@ A minimal convention for tracking development tasks inside a repository, without
 
 See [docs/repota.md](docs/repota.md) for the rules and examples.
 
+## Install in Cursor
+
+Customize → Plugins → + Add → From GitHub Repository, then paste `https://github.com/horizoncrafts/repota`. Install Repota for your user or for one project.
+
 ## Values
 - human-first. Everything can be easily managed by a human. Additional tools, AI skills are welcome but mustn't be critical.
 - minimalistic convention. Simple files, no frontmatter headers, 

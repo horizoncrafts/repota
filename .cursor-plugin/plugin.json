@@ -9,5 +9,6 @@
   },
   "repository": "https://github.com/horizoncrafts/repota",
   "keywords": ["tasks", "repota", "markdown"],
+  "rules": "./docs/repota.md",
   "skills": "./.cursor/skills/"
 }

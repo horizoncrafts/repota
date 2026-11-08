@@ -1,3 +1,9 @@
+---
+description: Repository task convention for .repota/. Use when creating, editing, moving, or checking repota tasks.
+alwaysApply: false
+globs: ".repota/**/*.md"
+---
+
 # Repository task convention
 
 ## Storage and status

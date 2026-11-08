@@ -10,6 +10,8 @@ color: blue
 
 # Integrity
 
+Read the shared [Repota convention](../references/convention.md) before proceeding. Resolve this path relative to this skill's directory. Apply the convention to the user's target repository.
+
 ## Uniqueness
 
 Run: on every additon or rename of a .md file

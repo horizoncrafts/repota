@@ -5,6 +5,8 @@ description: Create a new repository task as one Markdown file in the .repota in
 
 # New repota task
 
+Read the shared [Repota convention](../references/convention.md) before proceeding. Resolve this path relative to this skill's directory. Apply the convention to the user's target repository.
+
 Create one Markdown file directly in `.repota/`. That directory is the inbox and has no status. Do not place a new task in a status subdirectory.
 
 ## Filename

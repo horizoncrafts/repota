@@ -9,6 +9,6 @@
   },
   "repository": "https://github.com/horizoncrafts/repota",
   "keywords": ["tasks", "repota", "markdown"],
-  "rules": "./docs/repota.md",
+  "rules": "./.cursor/skills/references/convention.md",
   "skills": "./.cursor/skills/"
 }

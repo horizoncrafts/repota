@@ -4,13 +4,13 @@ description: Use this when asked to find and execute open repota tasks (.repota/
 ---
 # Run open repota tasks
 
-Read the repota convention first (`README.md` and `docs/repota.md` in the repota repository). Tasks are Markdown files in `.repota/`. Files directly in `.repota/` are the inbox (not done). A task's status is the direct subdirectory of `.repota/` it sits in; names are per project (e.g. `done/`, `closed/`). Retain finished tasks; move, never delete.
+Read the repota convention first (`README.md` and `.cursor/skills/references/convention.md` in the repota repository).
 
 ## 1. Find work (read-only)
 - List every repo the owner's connected source-control accounts and orgs can see (GitHub via the built-in GitHub tools, plus Cursor Origin). Skip archived repos.
 - For each, check the default branch for `.repota/`. Code search is unreliable for dot-folders; check per repo.
-- Read the repo's own instructions (AGENTS.md, CLAUDE.md, README, `.repota/` notes, docs/repota.md) to learn which statuses mean completed.
-- A task is open if it is in the inbox or in a status dir that isn't done/closed/cancelled/superseded.
+- Read the repo's own instructions (AGENTS.md, CLAUDE.md, README, `.repota/` notes) to learn which statuses mean completed.
+- A task is open if it is in the inbox or in a status dir that isn't done/closed/cancelled/superseded (ignore `.repota/_additional-info/`).
 
 ## 2. Execute, one task at a time
 - Never run several coding agents in parallel. Finish one repo's tasks (in a sensible order) before starting the next.

@@ -12,17 +12,7 @@ color: blue
 
 Read the shared [Repota convention](../references/convention.md) before proceeding. Resolve this path relative to this skill's directory. Apply the convention to the user's target repository.
 
-## Uniqueness
+Run on every addition, rename, or edit of a `.md` file in `.repota/`, or when asked to check `.repota/`:
 
-Run: on every additon or rename of a .md file
-
-- a file (a task) must have unique name across all folders in `.repota/`
-
-## Convention
-
-Run: on every addition or edit of a .md file
-
-- When referring to other tasks within a task body, use only the task's filename (e.g., `add-dark-mode.md`), not a file path or link.
-- Any file paths mentioned in the task body must point outside the `.repota/` folder.
-- Exceptions:
-    - `.repota/_additional-info`
+- Verify `.repota/` against every rule in the convention (storage and the special `.repota/_additional-info/` directory, filename identity and uniqueness, body contents, and task/file references).
+- Report any violations and optionally fix them.

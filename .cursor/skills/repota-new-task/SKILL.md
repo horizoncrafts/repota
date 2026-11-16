@@ -10,4 +10,5 @@ Read the shared [Repota convention](../references/convention.md) before proceedi
 - Create the new task file directly in `.repota/` (the inbox).
 - Match existing task files in the target repository when any exist.
 - If multiple tasks share context not yet documented in the repo, propose a fitting location in the project first; if none fits, place the shared file in `.repota/_additional-info/` and reference it.
+- When the task depends on other tasks - describe it and mention exactly the names of referenced tasks.
 

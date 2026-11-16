@@ -1,7 +1,7 @@
 {
   "name": "repota",
   "displayName": "Repota",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Track development tasks as Markdown files inside the repository.",
   "author": {
     "name": "Piotr Jodko",
@@ -9,6 +9,5 @@
   },
   "repository": "https://github.com/horizoncrafts/repota",
   "keywords": ["tasks", "repota", "markdown"],
-  "rules": "./.cursor/skills/references/convention.md",
   "skills": "./.cursor/skills/"
 }

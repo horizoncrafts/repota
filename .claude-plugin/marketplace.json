@@ -1,0 +1,17 @@
+{
+  "name": "repota",
+  "owner": {
+    "name": "Piotr Jodko",
+    "email": "piotr@horizoncrafts.com"
+  },
+  "metadata": {
+    "description": "Track development tasks as Markdown files inside the repository."
+  },
+  "plugins": [
+    {
+      "name": "repota",
+      "source": "./",
+      "description": "Track development tasks as Markdown files inside the repository."
+    }
+  ]
+}

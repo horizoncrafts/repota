@@ -19,6 +19,15 @@ In the repository whose tasks you want to manage, ask Codex to create a Repota t
 
 The skills load the bundled convention and operate on the current project's `.repota/` directory.
 
+## Install in Claude Code
+
+```sh
+claude plugin marketplace add horizoncrafts/repota
+claude plugin install repota@repota
+```
+
+Or inside a session: `/plugin marketplace add horizoncrafts/repota`, then `/plugin install repota@repota`. Skills appear as `repota:repota-new-task`, `repota:repota-change-status`, and `repota:repota-integrity`.
+
 ## Install in Cursor
 
 Customize → Plugins → + Add → From GitHub Repository, then paste `https://github.com/horizoncrafts/repota`. Install Repota for your user or for one project.
